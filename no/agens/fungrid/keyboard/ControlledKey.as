@@ -1,4 +1,4 @@
-package no.agens.keyboard
+package no.agens.fungrid.keyboard
 {
 	/*
 	Copyright (c) 2011, Agens AS <post@agens.no> http://agens.no
@@ -46,7 +46,7 @@ package no.agens.keyboard
 			var newUpFunctions:Array=new Array();	
 			
 			for (var t in upFunctions){					
-				if (upFunctions[t]!=f)newUpFunctions.push(upFunctions[t])
+				if (upFunctions[t]!=f)newUpFunctions.push(upFunctions[t]);
 			}				
 			upFunctions=newUpFunctions;
 		}
@@ -54,7 +54,7 @@ package no.agens.keyboard
 			var newDownFunctions:Array=new Array();
 			
 			for (var i in downFunctions){					
-				if (downFunctions[i]!=f)newDownFunctions.push(downFunctions[i])
+				if (downFunctions[i]!=f)newDownFunctions.push(downFunctions[i]);
 			}				
 			downFunctions=newDownFunctions;	
 		}
